@@ -1,0 +1,128 @@
+*{margin:0px; padding:0px; box-sizing: border-box;}
+.container{max-width:1170px;margin:auto;width:auto;padding:0px 15px;}
+a,a:hover,a:visited,a:active,a:focus{text-decoration: none;color:#060606;}
+img{max-width: 100%;}
+ul li{list-style:none;}
+body{font-family: 'Poppins', sans-serif;
+ 
+}
+
+  /* header */
+header{padding:15px;}
+header #headertop .click{padding:2px 42px;background-color:#c69d45;color:#ffffff; font-size:20px;
+    margin-left: 10px;}
+    header #headertop img{width:20px;margin-right: 10px;}
+    header #headertop .click:hover{background-color:#010101;color:#ffffff;transition:.5s;-o-transition:.5s; -moz-transition:.5s; -webkit-transition:.5s;}
+    #headerbtm ul{padding:0px; margin:0px;}
+	#headerbtm ul li{padding:0px; margin:0px;}
+	#headerbtm nav ul li a:hover{color:#c69d45;transform: scale(1.1);-o-transform: scale(1.1);-ms-transform: scale(1.1);-webkit-transform: scale(1.1);transition:.4s; -o-transition:.4s; -moz-transition:.4s; -webkit-transition:.4s;}
+ 
+   /* slidersection */
+    #luxury .room{position: relative;}
+    #luxury .room{width:100%;}
+    #luxury .room .text{position: absolute;top:240px;left: 0px;right:0px;background: rgb(241,241,241);height:154px;
+        background: linear-gradient(90deg, rgba(241,241,241,1) 0%, rgba(251,247,247,1) 50%, rgba(241,241,241,1) 100%);
+        opacity: 0.8;}
+        #luxury .room .text h1{color:#c69d45;text-align: center;font-weight: bold;margin-top: 27px;}
+        
+          
+        input {
+            padding:10px;
+              font-family: FontAwesome, "Open Sans", Verdana, sans-serif;
+            font-style: normal;
+            font-weight: normal;
+            text-decoration: inherit;
+            border-radius: 0 !important;
+          }
+          
+          .form-control {
+            border-radius: 0 !important;
+            font-size: 12x;
+          }
+          
+          .clickable { cursor: pointer; }
+         
+          #luxury .room .form{position: absolute;left: 0px;right: 0px; bottom: 0px;background: rgb(241,241,241);height:154px;
+            background: linear-gradient(90deg, rgba(241,241,241,1) 0%, rgba(251,247,247,1) 50%, rgba(241,241,241,1) 100%);
+            opacity: 0.8;}
+            #luxury .room .form h3{color:#c69d45;text-align: center;font-weight: bold;}
+            #luxury .room .form .check{padding:7px 42px;background-color:#c69d45;color:#ffffff; font-size:20px;
+                margin-left: 10px;}
+            #luxury .room .form .check:hover{background-color:#010101;color:#ffffff;transition:.5s;-o-transition:.5s; -moz-transition:.5s; -webkit-transition:.5s;}
+
+
+
+              /* section1 */
+            #visit{padding: 20px 0px}
+            #visit .box{position: relative;margin-top: 50px;margin-left: 118px;}
+            #visit .box .box1{position: absolute;height: 250px;width: 450px;border:6px solid #c69d45;padding:20px;background-color: #ffffff;z-index: 99;}
+            #visit .box .box1 img{width:117px;display: block;margin: auto;}
+            #visit .box .box1 h5{color:#c69d45;text-align: center;}
+            #visit .box .box1 h4{color:#c69d45;text-align: center;font-weight: bold;}
+            #visit .box .box2{position: absolute;height: 280px; width:450px;background-color: #c69d45;color:#ffffff;padding:33px;left:377px;top:152px;}
+            
+
+
+            /* section2 */
+            #restro{padding:30px 0px;margin-top:201px ;}
+            #restro .res{height: 400px;margin-top: 50px;width: 100%;}
+            #restro .res img{height:400px;width: 100%;}
+
+
+              /* section3 */
+              #mission{padding:30px 0px;}
+              #mission .images{position: relative;width:476px;height:346px;margin-left: 151px;}
+              #mission .image1{position: absolute;}
+              #mission .image2{position: absolute;top:154px;
+                width: 310px; z-index: 99;left: -119px;}
+              #mission .image3{position: absolute;right:36px;top:208px;position: absolute;width:310px;z-index: 99;}
+              #mission p{line-height: 30px;width:93%;}
+              #mission h3{font-size: 30px; font-weight: bold;}
+
+
+                /* section4 */
+              #vdodemo .vdo{height:400px;width: 100%;position: relative;margin-top: 30px;}
+              #vdodemo .vdo img{height:100%;width: 100%;}
+              #vdodemo .vdo .play{position: absolute;bottom:98px; right: 0px; left: 0px;background-color: transparent;border: none;z-index: 999;}
+              #vdodemo .vdo .ply{width: 60px;}
+              #vdodemo .vdo .start{position: absolute;background-color: #010101;opacity: 0.7;z-index: 99;width: 100%;height: 400px;top:0px;}
+              #vdodemo .vdo h2{position: absolute;top:124px;left:0px;right:0px;color:#ffffff;width: 39%; margin: auto;font-size: 45px;text-align:center;font-weight: bold;z-index: 999;}
+              #vdodemo .vdo video{width: 100%;}
+
+
+             /* section5 */
+
+             #abouthotel{padding:30px 0px;}
+             #abouthotel img{width: 100%;
+              height: 343px;}
+             #abouthotel .resorte{position: relative;height:366px;}
+             #abouthotel .resorte .resort{position:absolute;left: 0px;width:41%;height: 378px;}
+             #abouthotel .resorte .resort .about{position: absolute;width: 450px;border:6px solid #c69d45;padding:20px;background-color: #ffffff;left:438px;
+              z-index: 99;
+              top:89px;bottom: 48px;}
+              #abouthotel .resorte .resorts{position:absolute;right: 0px;width:41%;height: 378px;bottom: 0px;}
+              #abouthotel .resorte .resorts .about2{position: absolute;width: 450px;border:6px solid #c69d45;padding:20px;background-color: #ffffff;right:438px;
+                z-index: 99;
+                top:89px;bottom: 48px;}
+                #abouthotel .resorte .read{padding:0px 15px;border:3px solid#c69d45; font-size:20px;color:#c69d45
+                }
+
+                /* imagination */
+                #imagination{padding: 30px 0px;}
+                #imagination img{outline: 2px solid white;
+                  outline-offset: -12px;}
+                  #imagination .position{position: relative;}
+                  #imagination .position .txt{position: absolute;color: #ffffff;top:303px;left: 0px;right: 0px;}
+                  #imagination .position .txt h3{font-size: 30px; font-weight: bold;text-align: center;}
+
+                  #imagination .position .txt p{color: #ffffff;text-align: center;}
+
+                  /* footer */
+                  footer{padding: 30px 0px;}
+                  footer img{margin: auto;display: block;width:138px;}
+                  footer h3{color:#c69d45;text-align: center;font-weight: bold;font-size: 40px;}
+                  footer h4{font-weight: bold;}
+                  footer .icn{display: inline-block;list-style: none;background-color: #c69d45;height: 20px;width: 20px;-webkit-border-radius: 50%;-moz-border-radius: 50%;border-radius: 50%;text-align: center;line-height:19px;margin-left: 6px;color: white;
+                    font-size: 12px;
+                    margin-top: 10px;}
+                  
